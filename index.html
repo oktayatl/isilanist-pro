@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Arama Platformu</title>    
+     <!--font awesome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!-- bootstrap bağlantı -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+ <!--  css bağlantı -->
+ <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+    <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">İş Arama Platformu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto float-end">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Tüm İşler</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Şirketler</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Güncel İşler</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Diğer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-disabled="true">Staj</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="banner text-center">
+        <h1>İş İlanları Sizleri Bekliyor</h1>
+        <p>Size uygun iş İlanlarını inceleye bilirsiniz</p>
+    </div>
+    </header>
+<!-- iş arama kısmı -->
+<div class="search-job  text-center">
+    <input type="text" class="form-control" placeholder="Pozisyon Bilgisi Giriniz">
+    <input type="text" class="form-control" placeholder="Şirket Adı Giriniz">
+    <input type="text" class="form-control" placeholder="Şehir Bilgisi Giriniz">
+    <input type="button" class="btn btn-primary" value="İş Bul">
+</div>
+
+<!-- top jobs  -->
+<section id="jobs">
+    <div class="container text-center">
+        <h3>POPÜLER İŞLER</h3>
+        <div>
+            <img src="images/apple-logo.jpg" alt="">
+            <img src="images/amazon-logo.svg" alt="">
+            <img src="images/arabuleu-logo.png" alt="">
+            <img src="images/udemig-logo.jpg" alt="">
+            <img src="images/jbl-logo.png" alt="">
+            <img src="images/sony-logo.png" alt="">
+        </div>
+        <div>
+          <img src="images/tesla-logo.png" alt="">
+          <img src="images/fedex-logo.png" alt="">
+          <img src="images/socar-logo.png" alt="">
+          <img src="images/gratis-logo.png" alt="">
+          <img src="images/cococola-logo.jpg" alt="">
+          <img src="images/doritos-logo.png" alt="">
+      </div>
+      <div>
+        <img src="images/redbull-logo.png" alt="">
+        <img src="images/netflix-logo.jpg" alt="">
+        <img src="images/microsoft-logo.jpg" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/2048px-Xiaomi_logo.svg.png" alt="">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPEhUQEhAWEBIVFxkVERYXEhcXFRUYFxcWGBUYFhUYHSggGBomGxgVITEhJSorLi4uFx8zODMtNygtLisBCgoKDQ0OFQ8PFSsZFRkrLSsrNzc3LS0rNy0rKysrKysrKzcrKysrKysrLSsrKysrKysrKysrKysrKysrKysrK//AABEIAIkBbwMBIgACEQEDEQH/xAAcAAEAAwEBAQEBAAAAAAAAAAAABgcIBQQBAwL/xABMEAABAwIDAwUIDgcIAwAAAAABAAIDBBEFEiEGBzETQVFhcQgUInKBkaGzFyMyMzQ1UlR0orGywdNkc4KSk5TSFSVCQ2Kj0eFEg8L/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwC8UREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAReauro4GOllkbFG3VznOAaO0lV/ie+jDoiWxtmqSOdkeVp7HSEX8yCyUVUwb86Mnw6WoYOn2t3oDrqa7M7Z0WJA97TZnAXdG4FkjR0ljtbdY060EhRAiAi4+0W09JhwY6qmEIkJDDlc65AudGg9IXE9lTB/no/gzf0IJmihnsqYP89H8Gb+hS6lqGysbI03a9oc09IcLg+ayD9UReHGMWho4nVE7+TiZbM6xNrkAaNBPEhB7kUM9lPCPnzf4U39CeynhHz5v8Kb+hBM0XhwbFoa2JtRTvEkTr5XAEXyktOhAPEELi4/vAw/D5jT1M5jlADi0Qyv0dw1Y0jpQShFBvZcwf527+WqPy168J3lYZVzMp4agvlkNmNMEzbkAn3TmADQFBLkQL4Sg+oojtLvHw/DnGKWYvlHGOJpe4HocR4LT1Eg9Sir9+lIDpR1BHTeIejMgthFXeEb48NncGSGSlJsAZGeBr0vYSG9psFYEMzXtDmkOa4AtINwQdQQRxCD9ERRzaPbihw2RsVVMYnubnaBFI+7blt7saQNQUEjRQY73MHH/lu/lqj8tTCsrWQxPnecscbH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JovWMWvqmBsjHMeA5rmlrgeBDhYg+Qqs6fcjRxva8VVSSxzXC5itdpBF7R9StGyDI21mCOw+rmpHXtG7wD8qMi8buvwSNekFclad223cU2LSsmlkkhkY3ITHkGcXuM2Zp4a27VHfYLovndV54fy0THd3MfFMHbJ616leM0ffEE0F7cpG9n7zSPxXk2UwBmG0zKSN75GMLiHPtmOZxcb5QBz9C7CKxpV0r4XuhlaWSRuLHtIsQ5psRqpNsPt5UYQJGxMZLHKQ5zH5hZwFg4OHDS2nPZXxtdu+osU8OVhjmtYTRkNfpwDrgh47QVAKncS6/tWIC3+uA3+q8BExVGNYnJWTyVMtjJK7M+wsOFgAL6AAAeRTbcXhz5cS5YA5IInl7raBzwGsbfpN3H9kqV4ZuKjBBqK17xztijawH9p2ays3Z/Z6mw+LkaaIRM4nnc42tme46uPWUMdVERFEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/Z" alt="">
+        <img src="https://logoeps.com/wp-content/uploads/2012/12/arcelik-vector-logo.png" alt="">
+    </div>
+    </div>
+</section>
+<!-- job info  -->
+<section id="top-jop">
+  <div class="container">
+    <h5>EN SON GÜNCELLEMELER</h5>
+    <div class="company-details">
+
+      <div class="jop-update">
+        <h4><b>Senior Frontend Developer</b></h4>
+        <p> XYZ Software Company</p>
+        <i class="fa-solid fa-briefcase"></i> <span>0-1 yıl</span><br>
+        <i class="fa-solid fa-dollar-sign"></i><span>3.500-4.000</span><br>
+        <i class="fa-solid fa-location-dot"></i><span>Konya</span>
+        <p>Yetenekler : <small>Javascript</small>  <small>Html,Css</small>  <small>React</small>
+        </p>
+        <p>Detaylar için web sitemizi kontrol ediniz. <a href="#">Daha Fazla</a></p>
+      
+      </div>
+      <div class="apply-btn">
+        <button type="button" class="btn btn-primary">İncele</button>
+      </div>
+
+    </div>
+    <div class="company-details">
+
+      <div class="jop-update">
+        <h4><b>Junior Frontend Developer</b></h4>
+        <p> XTR Software Company</p>
+        <i class="fa-solid fa-briefcase"></i> <span>2-3 yıl</span><br>
+        <i class="fa-solid fa-dollar-sign"></i><span>1.500-2.500</span><br>
+        <i class="fa-solid fa-location-dot"></i><span>Adana</span>
+        <p>Yetenekler : <small>Javascript</small>  <small>Html,Css</small>  <small>React</small>
+        </p>
+        <p>Detaylar için web sitemizi kontrol ediniz. <a href="#">Daha Fazla</a></p>
+      
+      </div>
+      <div class="apply-btn">
+        <button type="button" class="btn btn-primary">İncele</button>
+      </div>
+
+    </div>
+    <div class="company-details">
+
+      <div class="jop-update">
+        <h4><b>Senior Frontend Developer</b></h4>
+        <p> XYZ Software Company</p>
+        <i class="fa-solid fa-briefcase"></i> <span>0-1 yıl</span><br>
+        <i class="fa-solid fa-dollar-sign"></i><span>3.500-4.000</span><br>
+        <i class="fa-solid fa-location-dot"></i><span>İstanbul</span>
+        <p>Yetenekler : <small>Javascript</small>  <small>Html,Css</small>  <small>React</small>
+        </p>
+        <p>Detaylar için web sitemizi kontrol ediniz. <a href="#">Daha Fazla</a></p>
+      
+      </div>
+      <div class="apply-btn">
+        <button type="button" class="btn btn-primary">İncele</button>
+      </div>
+
+    </div>
+    <ul class="page-link text-center">
+      <li class="left-arrow">&#8592;</li>
+      <li class="active" >1</li>
+      <li >2</li>
+      <li >3</li>
+      <li >4</li>
+      <li >5</li>
+      <li class="right-arrow">&#8594;</li>
+    
+
+    </ul>
+  </div>
+</section>
+<!-- site-stats -->
+
+<section id="site-stats">
+  <div class="container text-center">
+    <h3>İSTATİSTİKLERİMİZ</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-6">
+            <div class="stats-box">
+              <i class="fa-solid fa-user"></i><span><small>100k+</small></span>
+              <p>İş Arayanlar</p>
+
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stats-box">
+              <i class="fa-solid fa-user"></i><span><small>500+</small></span>
+              <p>İş Verenler</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-6">
+            <div class="stats-box">
+              <i class="fa-solid fa-user"></i><span><small>10k+</small></span>
+              <p>Aktif İş </p>
+
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="stats-box">
+              <i class="fa-solid fa-user"></i><span><small>500+</small></span>
+              <p>Şirketler</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="footer">
+  <h2 class="text-center mb-3"><i class="fa-solid fa-hand-peace"></i>İş İlanı Sayfası</h2>
+  <p class="text-center">İş İlanlarından Haberdar Olmak İçin Bizi Takip Etmeyi Unutmayın. </p>
+  <div class="social-buttons">
+    <img src="images/twitter-icon.png" alt="">
+    <img src="images/instagram-icon.png" alt="">
+    <img src="images/whatsapp-icon.png" alt="">
+    <img src="images/linkedin-icon.png" alt="">
+  </div>
+  <p class="text-center mt-5">	&#169; 2024 Tüm Hakları Saklıdır</p>
+</footer>
+    
+</body>
+</html>
